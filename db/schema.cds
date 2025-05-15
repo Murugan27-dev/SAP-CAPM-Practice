@@ -6,7 +6,7 @@ entity Risks
 {
     key ID : UUID;
     title : String(100);
-    prio : String(20);
+    prio : String(20); //test
     descr : String(100);
     impact : Integer;
     criticality : Integer;
